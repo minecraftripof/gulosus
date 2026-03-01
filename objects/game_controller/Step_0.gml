@@ -3,7 +3,7 @@ if game_lost {
 } else if game_won {
 	room_goto(Room_gameWon);
 } else {
-	if(tasks >= 1){
+	if(tasks >= 10){
 		room_goto_next();
 	}
 }
