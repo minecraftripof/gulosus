@@ -87,25 +87,25 @@ while (switch_movement){
 		x_speed = 0;
 		y_speed = -movement_speed;
 		move_chance = 120;
-		next_sprite = sGuardBackward;
+		next_sprite = sFinalBossBackward;
 		switch_movement = false;
 	} else if ((randint == 2) && down_free) {
 		x_speed = 0;
 		y_speed = movement_speed;
 		move_chance = 120;
-		next_sprite = sGuardForward;
+		next_sprite = sFinalBossForward;
 		switch_movement = false;
 	} else if ((randint == 3) && left_free) {
 		x_speed = -movement_speed;
 		y_speed = 0;
 		move_chance = 120;
-		next_sprite = sGuardLeft;
+		next_sprite = sFinalBossLeft;
 		switch_movement = false;
 	} else  if ((randint == 4) && right_free) {
 		x_speed = movement_speed;
 		y_speed = 0;
 		move_chance = 120;
-		next_sprite = sGuardRight;
+		next_sprite = sFinalBossRight;
 		switch_movement = false;
 	} else if (randint == 5) {
 		x_speed = 0;
@@ -118,15 +118,15 @@ if ((x_speed == 0) && (y_speed == 0)){
 	sprite_index = next_sprite;
 } else if (abs(x_speed) >= abs(y_speed)){
 	if(x_speed > 0) {
-		sprite_index = sGuardRightWalk;
+		sprite_index = sFinalBossRightWalk;
 	} else {
-		sprite_index = sGuardLeftWalk;
+		sprite_index = sFinalBossLeftWalk;
 	}
 } else if (abs(y_speed) > abs(x_speed)){
 	if(y_speed > 0) {
-		sprite_index = sGuardForwardWalk;
+		sprite_index = sFinalBossForwardWalk;
 	} else {
-		sprite_index = sGuardBackwardWalk;
+		sprite_index = sFinalBossBackwardWalk;
 	}
 }
 

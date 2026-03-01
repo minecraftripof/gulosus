@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"sTrapBlind",
-    "path":"sprites/sTrapBlind/sTrapBlind.yy",
+    "name":"sTrapBlindRight",
+    "path":"sprites/sTrapBlindRight/sTrapBlindRight.yy",
   },
   "spriteMaskId":null,
   "visible":true,

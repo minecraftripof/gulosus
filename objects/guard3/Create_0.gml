@@ -14,7 +14,7 @@ left_free = false;
 
 right_free = false;
 
-sight_range = 128;
+sight_range = 256;
 
 player_dist_x = 1;
 

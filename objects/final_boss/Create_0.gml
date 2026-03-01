@@ -4,7 +4,7 @@ x_speed = 0;
 
 y_speed = 0;
 
-movement_speed = 1;
+movement_speed = 2;
 
 up_free = true;
 
@@ -14,7 +14,7 @@ left_free = false;
 
 right_free = false;
 
-sight_range = 128;
+sight_range = 256;
 
 player_dist_x = 1;
 
@@ -35,4 +35,4 @@ switch_movement = false;
 
 move_chance = 120;
 
-next_sprite = sGuardForward;
+next_sprite = sFinalBossForward;

@@ -1,0 +1,1 @@
+game_controller.game_lost = true;
